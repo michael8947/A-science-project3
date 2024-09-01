@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>פסאודו-מדע</title>
+  
+  <style>
+    body {
+      direction: rtl;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border: 2px solid #007bff;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+    }
+
+    #message3 img, 
+    #message4 img, 
+    #message5 img, 
+    #message6 img {
+      width: 300px;
+      height: auto;
+    }
+
+    #message4 img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .quantum-effect {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .timeline-step {
+      margin-top: 20px;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .info-text {
+      text-align: center;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    span {
+      display: block;
+      margin-top: 5px;
+      color: #666;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>סיכום פסאודו-מדע</h1>
+  <div class="container">
+    <audio controls>
+      <source src="aspose_WhatsApp+Audio+2024-09-01+at+16.51.22_0b44d78d.waptt.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="message">
+      <img src="9a218f_5279b772585f47579c7ef31b83f0b97e~mv2.webp" alt="תמונה">
+    </div>
+
+    <div id="message2">
+      <img src="web-thoughts.jpg" alt="תמונה"><br>
+    </div>
+
+    <div id="message3">
+      <img src="germany-life-science.jpg" alt="תמונה">
+    </div>
+
+    <div id="message4">
+      <img src="kak-uznat-po-ruke-skolko-detej-budet-u-menya-hiromantiya.jpg" alt="תמונה">
+      <div class="info-text">קריאה בכף היד</div>
+      <span>קריאה בכף היד היא שיטה פסאודו-מדעית המתיימרת לגלות פרטים על אופיו או עתידו של אדם</span>
+    </div>
+
+    <div id="message5">
+      <img src="f798105fb8326eb38c16b412acc94649.jpg" alt="תמונה">
+      <div class="info-text">צ'י</div>
+      <span>אנרגיית החיים על פי הפילוסופיה הסינית</span>
+    </div>
+
+    <div id="message6">
+      <img src="Physiognomy.jpg" alt="תמונה">
+      <div class="info-text">פיזיונומיה</div>
+      <span>ניסיון לנתח את האישיות שלכם לפי תווי הפנים</span>
+      <span>איורים מספר על פיזיונומיה מהמאה ה-19</span>
+    </div>
+
+    <div id="message7">
+      <img src="images (1).jpeg" alt="תמונה">
+    </div>
+
+    <div id="message8">
+      <img src="Nature-science-01.02-22-1280x476.jpg" alt="תמונה">
+    </div>
+  </div>
+
+  <script>
+    const audio = document.querySelector('audio');
+    const messageElement = document.getElementById('message');
+    const messageElement2 = document.getElementById('message2');
+    const messageElement3 = document.getElementById('message3');
+    const messageElement4 = document.getElementById('message4');
+    const messageElement5 = document.getElementById('message5');
+    const messageElement6 = document.getElementById('message6');
+    const messageElement7 = document.getElementById('message7');
+    const messageElement8 = document.getElementById('message8');
+
+    audio.addEventListener('timeupdate', function () {
+      const currentTime = audio.currentTime;
+
+      if (currentTime >= 1 && currentTime < 5) {
+        messageElement.style.display = 'block';
+      } else {
+        messageElement.style.display = 'none';
+      }
+
+      if (currentTime >= 5 && currentTime < 7) {
+        messageElement2.style.display = 'block';
+      } else {
+        messageElement2.style.display = 'none';
+      }
+
+      if (currentTime >= 7 && currentTime < 13) {
+        messageElement3.style.display = 'block';
+      } else {
+        messageElement3.style.display = 'none';
+      }
+
+      if (currentTime >= 13 && currentTime < 31) {
+        messageElement4.style.display = 'block';
+      } else {
+        messageElement4.style.display = 'none';
+      }
+
+      if (currentTime >= 31 && currentTime < 40) {
+        messageElement5.style.display = 'block';
+      } else {
+        messageElement5.style.display = 'none';
+      }
+
+      if (currentTime >= 40 && currentTime < 47) {
+        messageElement6.style.display = 'block';
+      } else {
+        messageElement6.style.display = 'none';
+      }
+
+      if (currentTime >= 47 && currentTime < 63) {
+        messageElement7.style.display = 'block';
+      } else {
+        messageElement7.style.display = 'none';
+      }
+
+      if (currentTime >= 61 && currentTime < 68) {
+        messageElement8.style.display = 'block';
+      } else {
+        messageElement8.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
